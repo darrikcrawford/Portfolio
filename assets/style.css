@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #768F69;
+    --blue: #004285;
+    --gray: #d6d6d6;
+}
+
+header {
+    padding: 15px 35px 10px 0px;
+    background-color: var(--green);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--blue);
+    background-color: var(--green);
+    margin: 0;
+    padding: 5px 10px 5px 60px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.9vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+header nav ul li a:hover {
+    color: var(--green);
+    background: var(--blue);
+    border-radius: 15px;
+}
+
+/* Hero Style */
+.hero {
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+section{
+    padding: 60px;
+}
+
+/* About Me Style */
+.section-title {
+    font-size: 48px;
+    color: var(--green);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    border-color: var(--blue);
+}
+
+.intro {
+    text-align: center;
+    margin: 0 auto 30px auto;
+    background-color: var(--gray);
+    overflow: auto;
+}
+
+.intro img {
+    width: 35%;
+    float: left;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro p {
+    padding: 50px;
+    float: left;
+    width: 65%;
+    line-height: 1.5;
+}
