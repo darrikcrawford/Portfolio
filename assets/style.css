@@ -204,6 +204,16 @@ footer p {
     }
 }
 
+@media screen and (max-width: 873px) {
+    .contact-info div {
+        padding: 0 0 20px 0;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro article img {
         width: 60%;
@@ -214,13 +224,5 @@ footer p {
     .intro article p {
         width: 100%;
         margin: 20px;
-    }
-
-    .contact-info div {
-        padding: 0 0 20px 0;
-    }
-
-    .contact-info p {
-        text-align: center;
     }
 }
