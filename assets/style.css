@@ -164,3 +164,19 @@ section{
 .contact-info p a:hover {
     background: var(--blue);
 }
+
+/* Footer Style */
+footer {
+    background: var(--gray);
+    padding: 30px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+    color: var(--blue);
+}
+
+footer p {
+    color: var(--green);
+}
