@@ -11,7 +11,7 @@
 }
 
 header {
-    padding: 15px 35px 10px 0px;
+    padding: 15px 35px 10px 10px;
     background-color: var(--green);
     text-decoration: none;
     display: flex;
@@ -54,7 +54,7 @@ header nav ul a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.9vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
 }
 
 header nav ul li a:hover {
@@ -179,4 +179,48 @@ footer h2 {
 
 footer p {
     color: var(--green);
+}
+
+/* Media Qeusries For Smaller Screens */
+@media screen and (max-width: 980px) {
+    header{
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+      header nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro article img {
+        width: 60%;
+        height: fit-content;
+        margin: 20px;
+    }
+
+    .intro article p {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .contact-info div {
+        padding: 0 0 20px 0;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
 }
