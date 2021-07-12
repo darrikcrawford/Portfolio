@@ -98,16 +98,69 @@ section{
     overflow: auto;
 }
 
-.intro img {
+.intro article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intro article img {
     width: 35%;
+    height: fit-content;
     float: left;
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.intro p {
+.intro article p {
     padding: 50px;
     float: left;
     width: 65%;
     line-height: 1.5;
+}
+
+/* My Work Style */
+.work h2 {
+    color: var(--blue);
+    border-color: var(--green);
+}
+
+/* Contact Me Style */
+.contact {
+    background-color: var(--green);
+}
+
+.contact h2 {
+    color: var(--gray);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-info div {
+    margin: 0px 40px;
+}
+
+.contact-info h3 {
+    color: var(--blue);
+    font-size: 32px;
+}
+
+.contact-info p {
+    color: var(--gray);
+    margin: 20px 0 0 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-info p a {
+    color: var(--gray);
+}
+
+.contact-info p a:hover {
+    background: var(--blue);
 }
