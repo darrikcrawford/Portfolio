@@ -83,12 +83,14 @@ section{
 .section-title {
     font-size: 48px;
     color: var(--green);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
     border-color: var(--blue);
+    
 }
 
 .intro {
@@ -159,10 +161,12 @@ section{
 
 .contact-info p a {
     color: var(--gray);
+    padding: 3px;
 }
 
 .contact-info p a:hover {
     background: var(--blue);
+    border-radius: 4px;
 }
 
 /* Footer Style */
