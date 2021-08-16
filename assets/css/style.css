@@ -65,10 +65,10 @@ header nav ul li a:hover {
 
 /* Hero Style */
 .hero {
-    background-image: url(./images/hero-image.jpg);
+    background-image: url("../images/hero-image.jpg");
     background-size: cover;
-    background-position: center;
     height: 400px;
+    background-position: center;
 }
 
 .flex-row {
